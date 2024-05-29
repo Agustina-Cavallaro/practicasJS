@@ -1,0 +1,9 @@
+.character{
+    border: solid 1px grey;
+    width: fit-content;
+} 
+
+.characterList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
